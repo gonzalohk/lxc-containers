@@ -1,2 +1,0 @@
-# lxc-containers
-Linux Containers
