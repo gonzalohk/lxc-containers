@@ -3,7 +3,7 @@ Los contenedores son tecnologías que permiten **empaquetar y aislar las aplicac
 Existen varias opciones entre las que se puede mencionar que aplican esta tecnología, pero es necesario diferenciar entre contendores de sistema operativo como LXC (LinuX Containers), OpenVZ y contenedores de aplicación como Docker.
 
 
-## Que es es LXC?
+## ¿Que es es LXC?
 LXC o  Linux Containers, ofrece un **entorno de virtualización a nivel del sistema operativo para linux.**  En efecto, este tipo de virtualización permite que sistemas operativos se ejecuten simultáneamente en un solo sistema de hardware.
 
 Es decir, LXC permite que un servidor físico ejecute múltiples instancias de sistemas operativos aislados. Sin embargo, LXC no provee de una máquina virtual más bien provee un entorno virtual que tiene su propio espacio de procesos y redes, esto es posible gracias a que básicamente **LXC utiliza Cgroups y Namespaces para proporcionar el aislamiento** requerido. 
